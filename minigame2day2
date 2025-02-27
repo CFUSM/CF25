@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        var formURLs = [
+            'https://forms.gle/ScqDwRiVa4L4RyTT7',
+            'https://forms.gle/rReJJJX4yntJEcGp8',
+        ];
+        
+        var randomIndex = Math.floor(Math.random() * formURLs.length);
+
+        window.location.href = formURLs[randomIndex];
+    </script>
+</head>
+</html>
